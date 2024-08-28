@@ -1,0 +1,12 @@
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: #4CAF50;
+}
+
+.incorrect {
+    color: #F44336;
+}

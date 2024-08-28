@@ -1,0 +1,15 @@
+# .gitignore
+AppData/
+*.log
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/

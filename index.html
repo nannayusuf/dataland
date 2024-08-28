@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>SQL Adventure - Level 1</h1>
+        <div id="game-screen">
+            <p id="game-text">Welcome to Level 1! Your mission: Retrieve the names of all adventurers from the "characters" table.</p>
+            <div id="game-options">
+                <textarea id="sql-input" rows="4" cols="50" placeholder="Type your SQL query here..."></textarea>
+                <button onclick="checkLevel1()">Run Query</button>
+                <div id="feedback"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
